@@ -11,6 +11,10 @@ const Dashboard = () => {
     const baseUrl = process.env.REACT_APP_baseUrl;
 
     const postData = () => {
+        if (!reqData.education.trim() || !reqData.country.trim()) {
+            alert("Please fill in all required fields: Education and Country.");
+            return;
+        }
         axios.post(baseUrl + '/predict', reqData)
             .then(function (response: any) {
                 setSalary(response?.data?.salary.toFixed(4));
@@ -19,6 +23,13 @@ const Dashboard = () => {
                 console.log(error);
             });
     }
+
+    useEffect(() => {
+        if (!reqData.education.trim() || !reqData.country.trim()) {
+            return;
+        }
+        postData();
+    }, [reqData.experience]);
 
     const resetData = () => {
         setReqData({ education: "", country: "", experience: 1 });
