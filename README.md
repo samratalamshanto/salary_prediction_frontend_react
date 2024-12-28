@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+# Salary Prediction using Machine Learning Models
+Model Trained and then exposed endpoints using FastAPI to predict salary based on the trained model. Then created User Interface using React and deployed in the live server.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live URLS:
+  1. Fast API Backend Service URL: https://machine-leaning-salary-prediction-fast.onrender.com/
+![image](https://github.com/user-attachments/assets/a6ade1d3-85ac-45f0-aa66-34a7a106fed5)
 
-## Available Scripts
+  2. Frontend React URL: https://salary-prediction-frontend-react-new.onrender.com/
+![image](https://github.com/user-attachments/assets/31aee787-441b-489c-bd91-aa8b417683eb)
 
-In the project directory, you can run:
+## Key Points:
+1. Machine Learning Model Trained Using Public Dataset.
+2. FastAPI for creating endpoints for predicting salary using trained model.
+3. React for creating User Interface.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Repository URL:
+1. Backend Repository: [Link](https://github.com/samratalamshanto/machine_leaning_salary_prediction_fast_api)
+2. Frontend Repository: [Link](https://github.com/samratalamshanto/salary_prediction_frontend_react)
+3. Dataset Link: [Link](https://survey.stackoverflow.co/)
+4. Model Notebook: [Link](https://github.com/samratalamshanto/machine_leaning_salary_prediction_fast_api/blob/main/pickle_models/Predict_Salary.ipynb)
